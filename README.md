@@ -1,2 +1,29 @@
 # BIBO2-PrusaSlicer
- A configuration bundle for PrusaSlicer following the vender bundle design
+Version: 0.0.1-alpha12<br>
+Release Date: 2020-02-13<br>
+
+## Summary
+A configuration bundle for PrusaSlicer following the [vendor bundle design](https://github.com/prusa3d/PrusaSlicer/wiki/Vendor-bundles-and-updating-process)
+
+The original creation of this config bundle was heavily influenced by the included [Creality vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/Creality.ini) and the [Prusa vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/PrusaResearch.ini). Further modifications were made based on knowledge about the BIBO2 printer's stock Marlin firmware, dual extruder printers, and work done for a BIBO2 Cura print profile.
+
+## Getting Started
+Very important to [import the ini config bundle as a config bundle](https://www.filamentone.com/blogs/how-to/prusa-slicer-how-to-import-configuration-bundle). Failure to do this will result in problems.
+
+## Branch configurations
+Several branch configurations have been created to benifit the community.
+
+### Master branch
+The Master branch is designed for Stock printers with the standard 8-bit MKS Gen L Motherboard and no major hardware modifications.
+
+### 32-bit mod
+Thge 32-bit mod branch is designed for users who have modified their printer with upgrades to a 32-bit motherboard, TMC2209 stepper drivers and custom marlin 2.0.x firmware. This branch started as a copy of the Master branch and tuned by users with those modifications.
+
+## Versoning
+The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
+
+## Version History
+- Github repository created (2020-02-13): development of 0.0.1-alpha12 started with github hosting.
+- Pre-release 0.0.1-alpha11 (2020-02-12): Revised version available to community for testing. Removed PVA and HIPS disolvable support materials from single extruder versions. Improved single extruder second nozzle standby temperature.
+- Pre-release 0.0.1-alpha8 (2020-02-09): Available to community Early adopters for testing. Corrected filament settings to prevent duplicates, and reworked start and end gcode.
+- Pre-release 0.0.1-alpha (2020-01-25): Available to community Early adopters for testing.
