@@ -3,7 +3,7 @@ Version: 0.0.1-alpha12<br>
 Release Date: 2020-02-13<br>
 
 ## Summary
-A configuration bundle for PrusaSlicer following the [vendor bundle design](https://github.com/prusa3d/PrusaSlicer/wiki/Vendor-bundles-and-updating-process)
+A PrusaSlicer configuration bundle for BIBO2 printers following the [vendor bundle design](https://github.com/prusa3d/PrusaSlicer/wiki/Vendor-bundles-and-updating-process)
 
 The original creation of this config bundle was heavily influenced by the included [Creality vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/Creality.ini) and the [Prusa vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/PrusaResearch.ini). Further modifications were made based on knowledge about the BIBO2 printer's stock Marlin firmware, dual extruder printers, and work done for a BIBO2 Cura print profile.
 
