@@ -10,6 +10,8 @@ The original creation of this config bundle was heavily influenced by the includ
 ## Getting Started
 Very important to [import the ini config bundle as a config bundle](https://www.filamentone.com/blogs/how-to/prusa-slicer-how-to-import-configuration-bundle). Failure to do this will result in problems.
 
+Once installed remember you need to select the Printer first, Print profile second and Filaments last. Many of the settings and filaments are tied to the "Printer Compatability" definitions. For instance disolvable filaments like PVA and HIPS are set to only show when the Dual extruder printer is selected.
+
 ## Branch configurations
 Several branch configurations have been created to benifit the community.
 
