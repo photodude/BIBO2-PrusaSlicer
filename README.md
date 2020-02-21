@@ -25,7 +25,7 @@ Thge 32-bit mod branch is designed for users who have modified their printer wit
 The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
 
 ## Version History
-- Pre-release 0.0.1-alpha13 (2020-02-20): Adjusted Jerk, Acceleration, and maximum feedrates to better batch the stock firmware. For Dual extrusion, tool change retractions were increased.
+- Pre-release 0.0.1-alpha13 (2020-02-20): Adjusted Jerk, Acceleration, and maximum feedrates to better match the stock firmware. For Dual extrusion, tool change retractions were increased.
 - Github repository created (2020-02-13): development of 0.0.1-alpha12 started with github hosting.
 - Pre-release 0.0.1-alpha11 (2020-02-12): Revised version available to community for testing. Removed PVA and HIPS disolvable support materials from single extruder versions. Improved single extruder second nozzle standby temperature.
 - Pre-release 0.0.1-alpha8 (2020-02-09): Available to community Early adopters for testing. Corrected filament settings to prevent duplicates, and reworked start and end gcode.

@@ -1,5 +1,5 @@
 min_slic3r_version = 2.2.0-alpha3
-0.0.1-alpha13 Adjusted Jerk, Acceleration, and maximum feedrates to better batch the stock firmware. For Dual extrusion, tool change retractions were increased.
+0.0.1-alpha13 Adjusted Jerk, Acceleration, and maximum feedrates to better match the stock firmware. For Dual extrusion, tool change retractions were increased.
 0.0.1-alpha12 github repo created for version history
 0.0.1-alpha11 Revised version available to community for testing. Removed PVA and HIPS disolvable support materials from single extruder versions.
 Improved single extruder second nozzle standby temperature
