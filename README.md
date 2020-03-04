@@ -1,6 +1,6 @@
 # BIBO2-PrusaSlicer
-Version: 0.0.1-alpha13<br>
-Release Date: 2020-02-20<br>
+Version: 0.0.1-beta1<br>
+Release Date: 2020-03-04<br>
 
 ## Summary
 A PrusaSlicer configuration bundle for BIBO2 printers following the [vendor bundle design](https://github.com/prusa3d/PrusaSlicer/wiki/Vendor-bundles-and-updating-process)
@@ -25,6 +25,7 @@ Thge 32-bit mod branch is designed for users who have modified their printer wit
 The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
 
 ## Version History
+- Pre-release 0.0.1-beta1 (2020-03-04): Added new printer profiles for ditto printing. New retraction settings, new materials. Removed some settings which do not apply. More start gcode improvements.
 - Pre-release 0.0.1-alpha13 (2020-02-20): Adjusted Jerk, Acceleration, and maximum feedrates to better match the stock firmware. For Dual extrusion, tool change retractions were increased.
 - Github repository created (2020-02-13): development of 0.0.1-alpha12 started with github hosting.
 - Pre-release 0.0.1-alpha11 (2020-02-12): Revised version available to community for testing. Removed PVA and HIPS disolvable support materials from single extruder versions. Improved single extruder second nozzle standby temperature.
