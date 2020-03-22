@@ -1,6 +1,6 @@
 # BIBO2-PrusaSlicer
 Version: 0.0.1-beta4<br>
-Release Date: 2020-03-17<br>
+Release Date: 2020-03-21<br>
 
 ## Summary
 A PrusaSlicer configuration bundle for BIBO2 printers following the [vendor bundle design](https://github.com/prusa3d/PrusaSlicer/wiki/Vendor-bundles-and-updating-process)
@@ -25,7 +25,7 @@ Thge 32-bit mod branch is designed for users who have modified their printer wit
 The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
 
 ## Version History
-- Pre-release 0.0.1-beta4 (2020-03-17): Revert PrusaSlicer2.2.0-RC3 output naming convention until Prusaslicer 2.2.0 for BC compatability. Change file/folder naming for Vender compliance.
+- Pre-release 0.0.1-beta4 (2020-03-21): Revert PrusaSlicer2.2.0-RC3 output naming convention until Prusaslicer 2.2.0 for BC compatability. Change file/folder naming for Vender compliance.  Some print setting and accelleration/jerk changes which seem to improve top surface finish and retraction strings.
 - Pre-release 0.0.1-beta3 (2020-03-11): Multiple Print models were unified into a single one. Other improvements were adopted from the changes PrusaSlicer made to their version of this profile.
 - Pre-release 0.0.1-beta2 (2020-03-09): Bed model and textures added. Materials all use the BOBO2 identifier. deretract speed set to 0 to use retract speed.
 - Pre-release 0.0.1-beta1 (2020-03-04): Added new printer profiles for ditto printing. New retraction settings, new materials. Removed some settings which do not apply. More start gcode improvements.
