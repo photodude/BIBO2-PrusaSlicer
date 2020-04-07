@@ -25,7 +25,7 @@ Thge 32-bit mod branch is designed for users who have modified their printer wit
 The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
 
 ## Version History
-- Pre-release 0.0.2-beta1 (2020-04-06): Fixes the first layer temp for ditto printing. Re-impliments the new conditional output naming convention as Prusaslicer 2.2.0 has been released. Moved this to 0.0.2-beat1 to remove conflicts with v0.0.1 included in PrusaSlicer 2.2.0
+- Pre-release 0.0.2-beta1 (2020-04-06): Fixes the first layer temp for ditto printing. Re-impliments the new conditional output naming convention as Prusaslicer 2.2.0 has been released. Moved this to 0.0.2-beta1 to remove conflicts with v0.0.1 included in PrusaSlicer 2.2.0
 - 0.0.1 (2020-03-23) First offical release included in PrusaSlicer 2.2.0 release but not released in this repo, most closly resembles our 0.0.1-beta3
 - Pre-release 0.0.1-beta4 (2020-03-21): Revert PrusaSlicer2.2.0-RC3 output naming convention until Prusaslicer 2.2.0 for BC compatability. Change file/folder naming for Vender compliance.  Some print setting and accelleration/jerk changes which seem to improve top surface finish and retraction strings.
 - Pre-release 0.0.1-beta3 (2020-03-11): Multiple Print models were unified into a single one. Other improvements were adopted from the changes PrusaSlicer made to their version of this profile.

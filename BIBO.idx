@@ -1,5 +1,5 @@
 min_slic3r_version = 2.2.0-alpha5
-0.0.2-beta1 Fixes the first layer temp for ditto printing. Re-impliments the new conditional output naming convention as Prusaslicer 2.2.0 has been released. Moved this to 0.0.2-beat1 to remove conflicts with v0.0.1 included in PrusaSlicer 2.2.0
+0.0.2-beta1 Fixes the first layer temp for ditto printing. Re-impliments the new conditional output naming convention as Prusaslicer 2.2.0 has been released. Moved this to 0.0.2-beta1 to remove conflicts with v0.0.1 included in PrusaSlicer 2.2.0
 0.0.1-beta4 Revert PrusaSlicer2.2.0-RC3 output naming convention until Prusaslicer 2.2.0 for BC compatability. Change file/folder naming for Vender compliance. Some print setting and accelleration/jerk changes which seem to improve top surface finish and retraction strings.
 0.0.1-beta3 Multiple Print models were unified into a single one. Other improvements were adopted from the changes PrusaSlicer made to their version of this profile.
 0.0.1-beta2 Bed model and textures added. Materials all use the BOBO2 identifier. deretract speed set to 0 to use retract speed.
