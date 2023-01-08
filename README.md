@@ -1,6 +1,6 @@
 # BIBO2-PrusaSlicer
-Version: 0.0.4-alpha1<br>
-Release Date: 2021-01-09<br>
+Version: 0.0.5-alpha1<br>
+Release Date: 2023-01-08<br>
 
 ## Summary
 A PrusaSlicer configuration bundle for BIBO2 printers following the [vendor bundle design](https://github.com/prusa3d/PrusaSlicer/wiki/Vendor-bundles-and-updating-process)
@@ -25,7 +25,8 @@ Thge 32-bit mod branch is designed for users who have modified their printer wit
 The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
 
 ## Version History
-- Pre-release 0.0.4-alpha1 (2021-01-09): copies some settings from Prusa Slicer's RC3 0.0.3 configuration file. Modifies some extrusion width and speed settings. Machine Jerk settings were increased.
+- Pre-release 0.0.5-alpha1 (2023-01-08):copies some settings from Prusa Slicer's 0.0.5 configuration file.Match Machine limits to Firmware limits for correct time estimation. These are only telling the slicer what the right values to use for time estimation and are not affecting gcode. Also reorganized the machine limit values to match with the user interface order in the GUI. Removed duplicate homing from all start gcode (and other duplicates where found). Added T0 for all gcode just before homing to avoid tool offset issues. in some cases this was already implemented and was only reorganized for consistency.
+- Pre-release 0.0.4-alpha1 (2021-01-09): copies some settings from Prusa Slicer's RC3 0.0.3 configuration file. Modifies some extrusion width and speed settings. Machine Jerk settings were increased (but machine limits do not matter as it's only used for time estimates).
 - Pre-release 0.0.2-beta1 (2020-04-06): Fixes the first layer temp for ditto printing. Re-impliments the new conditional output naming convention as PrusaSlicer 2.2.0 has been released. Moved this to 0.0.2-beta1 to remove conflicts with v0.0.1 included in PrusaSlicer 2.2.0
 - 0.0.1 (2020-03-23) First offical release included in PrusaSlicer 2.2.0 release but not released in this repo, most closly resembles our 0.0.1-beta3
 - Pre-release 0.0.1-beta4 (2020-03-21): Revert PrusaSlicer2.2.0-RC3 output naming convention until Prusaslicer 2.2.0 for BC compatability. Change file/folder naming for Vender compliance. Some print setting and accelleration/jerk changes which seem to improve top surface finish and retraction strings.
