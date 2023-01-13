@@ -1,5 +1,5 @@
 # BIBO2-PrusaSlicer
-Version: 0.0.56-alpha1<br>
+Version: 0.0.6-alpha1<br>
 Release Date: 2023-01-13<br>
 
 ## Summary
