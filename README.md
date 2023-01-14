@@ -8,7 +8,7 @@ A PrusaSlicer configuration bundle for BIBO2 printers following the [vendor bund
 The original creation of this config bundle was heavily influenced by the included [Creality vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/Creality.ini) and the [Prusa vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/PrusaResearch.ini). Further modifications were made based on knowledge about the BIBO2 printer's stock Marlin firmware, dual extruder printers, and work done for a BIBO2 Cura print profile.
 
 ## Getting Started
-Very important to [import the ini config bundle as a config bundle](https://www.filamentone.com/blogs/how-to/prusa-slicer-how-to-import-configuration-bundle). Failure to do this will result in problems.
+Very important to [import the ini config bundle as a config bundle](https://www.filamentone.com/blogs/3d-printing-blog/prusa-slicer-how-to-import-configuration-bundle). Failure to do this will result in problems.
 
 Once installed remember you need to select the Printer first, Print profile second and Filaments last. Many of the settings and filaments are tied to the "Printer Compatability" definitions. For instance disolvable filaments like PVA and HIPS are set to only show when the Dual extruder printer is selected.
 
