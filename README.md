@@ -1,5 +1,5 @@
 # BIBO2-PrusaSlicer
-Version: 0.0.6-alpha1<br>
+Version: 0.0.6-alpha2<br>
 Release Date: 2023-01-13<br>
 
 ## Summary
@@ -25,6 +25,14 @@ Thge 32-bit mod branch is designed for users who have modified their printer wit
 The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
 
 ## Version History
+- Pre-release 0.0.6-alpha2 (2023-01-28): adopts the 2022 Maker's Muse "common changed" slicer settings video https://youtu.be/mE521Q4H6aY
+  List of modifications:
+    - perimeters = 3 (was 2)
+    - infill = 15% (was 20%)
+    - fill_pattern = cubic or support cubic (was grid)
+    - elephant_foot_compensation = 0.3 (was 0)
+    - seam_position = aligned (current setting)
+    - ensure_vertical_shell_thickness = off (current setting)
 - Pre-release 0.0.6-alpha1 (2023-01-13):copies some settings from Prusa Slicer's 0.0.5 configuration file.Match Machine limits to Firmware limits for correct time estimation. These are only telling the slicer what the right values to use for time estimation and are not affecting gcode. Also reorganized the machine limit values to match with the user interface order in the GUI. Removed duplicate homing from all start gcode (and other duplicates where found). Added T0 for all gcode just before homing to avoid tool offset issues. in some cases this was already implemented and was only reorganized for consistency.
 - Pre-release 0.0.4-alpha1 (2021-01-09): copies some settings from Prusa Slicer's RC3 0.0.3 configuration file. Modifies some extrusion width and speed settings. Machine Jerk settings were increased (but machine limits do not matter as it's only used for time estimates).
 - Pre-release 0.0.2-beta1 (2020-04-06): Fixes the first layer temp for ditto printing. Re-impliments the new conditional output naming convention as PrusaSlicer 2.2.0 has been released. Moved this to 0.0.2-beta1 to remove conflicts with v0.0.1 included in PrusaSlicer 2.2.0

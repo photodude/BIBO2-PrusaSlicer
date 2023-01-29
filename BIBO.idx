@@ -1,3 +1,4 @@
+0.0.6-alpha2 includes adopts the 2022 Maker's Muse "common changed" slicer settings
 0.0.6-alpha1 includes changes from 0.0.4-alpha1 marked 0.0.5 alpha1 to avoid conflicts with 0.0.5 from PrusaSlicer 2.4.1
 0.0.5 Correct Marlin Error accumulation for Ditto printer profiles.
 0.0.4 Correct Marlin Error accumulation
