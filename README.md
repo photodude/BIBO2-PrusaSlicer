@@ -26,7 +26,7 @@ The versioning system used by PrusaSlicer is based on [Semantic Versioning](http
 
 ## Version History
 - Pre-release 0.0.6-alpha2 (2023-01-28): adopts the 2022 Maker's Muse "common changed" slicer settings video https://youtu.be/mE521Q4H6aY
-  List of modifications:
+  - List of modifications:
     - perimeters = 3 (was 2)
     - infill = 15% (was 20%)
     - fill_pattern = cubic or support cubic (was grid)
