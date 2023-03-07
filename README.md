@@ -1,6 +1,6 @@
 # BIBO2-PrusaSlicer
-Version: 0.0.6-alpha2<br>
-Release Date: 2023-01-13<br>
+Version: 0.0.8-alpha1<br>
+Release Date: 2023-03-06<br>
 
 ## Summary
 A PrusaSlicer configuration bundle for BIBO2 printers following the [vendor bundle design](https://github.com/prusa3d/PrusaSlicer/wiki/Vendor-bundles-and-updating-process)
@@ -25,6 +25,7 @@ Thge 32-bit mod branch is designed for users who have modified their printer wit
 The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
 
 ## Version History
+- Pre-release 0.0.8-alpha1 (2023-03-06): Fix for Issue #1 filament unloading at start of print. Other start gcode fixes, improve supports by setting default support contact distance to layer height.
 - Pre-release 0.0.6-alpha2 (2023-01-28): adopts the 2022 Maker's Muse "common changed" slicer settings video https://youtu.be/mE521Q4H6aY
   - List of modifications:
     - perimeters = 3 (was 2)
