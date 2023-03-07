@@ -1,3 +1,5 @@
+0.0.8-alpha1 Fix for Issue #1 filament unloading at start of print. Other start gcode fixes, improve supports by setting default support contact distance to layer height.
+0.0.7 corrects missing profile item from 0.0.6 ensure vertical shell thickness = 0 (off)
 0.0.6-alpha2 includes adopts the 2022 Maker's Muse "common changed" slicer settings
 0.0.6-alpha1 includes changes from 0.0.4-alpha1 marked 0.0.5 alpha1 to avoid conflicts with 0.0.5 from PrusaSlicer 2.4.1
 0.0.5 Correct Marlin Error accumulation for Ditto printer profiles.
