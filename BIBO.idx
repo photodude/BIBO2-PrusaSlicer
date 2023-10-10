@@ -1,4 +1,5 @@
-0.0.8-alpha2 continute Alpha 1 fixes, imrpove end gcode by reseting each extruder removing and ambiguous state. Reduce G92 E0 calls in start gcode
+0.0.8-alpha3 Make this version of the profiles a specified Development branch to avoid naming conflics with official community version when community testing
+0.0.8-alpha2 Continue Alpha 1 fixes, imrpove end gcode by reseting each extruder removing and ambiguous state. Reduce G92 E0 calls in start gcode
 0.0.8-alpha1 Fix for Issue #1 filament unloading at start of print. Other start gcode fixes, improve supports by setting default support contact distance to layer height.
 0.0.7 corrects missing profile item from 0.0.6 ensure vertical shell thickness = 0 (off)
 0.0.6-alpha2 includes adopts the 2022 Maker's Muse "common changed" slicer settings
