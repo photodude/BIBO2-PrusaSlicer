@@ -1,14 +1,15 @@
 # BIBO2-PrusaSlicer
-Version: 0.0.8-alpha2<br>
-Release Date: 2023-03-07<br>
+Version: 0.0.8-alpha3<br>
+Release Date: 2023-10-09<br>
 
 ## Summary
 A PrusaSlicer configuration bundle for BIBO2 printers following the [vendor bundle design](https://github.com/prusa3d/PrusaSlicer/wiki/Vendor-bundles-and-updating-process)
+This version has been renamed to as a different vender (BIBO-Development) and different printer (BIBO2-dev) to avoid naming conflicts with the official community version bundled in PrusaSlicer. The official community version bundled in Prusaslicer is derived from the profiles in develpment in the repository,
 
-The original creation of this config bundle was heavily influenced by the included [Creality vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/Creality.ini) and the [Prusa vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/PrusaResearch.ini). Further modifications were made based on knowledge about the BIBO2 printer's stock Marlin firmware, dual extruder printers, and work done for a BIBO2 Cura print profile.
+The original creation of this config bundle was heavily influenced by the PrusaSlicer included [Creality vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/Creality.ini) and the [Prusa vendor profiles](https://github.com/prusa3d/PrusaSlicer/blob/master/resources/profiles/PrusaResearch.ini). Further modifications were made based on knowledge about the BIBO2 printer's stock Marlin firmware, dual extruder printers, work done for a BIBO2 Cura print profile, and community testing by users in the BIBO official Facebook Group.
 
 ## Getting Started
-Very important to [import the ini config bundle as a config bundle](https://www.filamentone.com/blogs/3d-printing-blog/prusa-slicer-how-to-import-configuration-bundle). Failure to do this will result in problems.
+**Very important to [import the ini config bundle as a config bundle](https://www.filamentone.com/blogs/3d-printing-blog/prusa-slicer-how-to-import-configuration-bundle)**. Failure to do this will result in problems. This version has been renamed to as a different vender (BIBO-Development) and different printer (BIBO2-dev) to avoid naming conflicts with the official community version bundled in PrusaSlicer.
 
 Once installed remember you need to select the Printer first, Print profile second and Filaments last. Many of the settings and filaments are tied to the "Printer Compatability" definitions. For instance disolvable filaments like PVA and HIPS are set to only show when the Dual extruder printer is selected.
 
@@ -25,9 +26,10 @@ Thge 32-bit mod branch is designed for users who have modified their printer wit
 The versioning system used by PrusaSlicer is based on [Semantic Versioning](https://semver.org/), the config_version field expects a version string formated as Major.minor.patch, optionally there may also be a pre-release string (such as "-alpha") appended.
 
 ## Version History
-- Pre-release 0.0.8-alpha2 (2023-03-07): continute Alpha 1 fixes, imrpove end gcode by reseting each extruder removing and ambiguous state. Reduce G92 E0 calls in start gcode to minimum needed to prevent Issue #1
+- Pre-release 0.0.8-alpha3 (2023-10-09): Renamed to as a different vender (BIBO-Development) and different printer (BIBO2-dev) to avoid naming conflicts with the official community version bundled in PrusaSlicer.
+- Pre-release 0.0.8-alpha2 (2023-03-07): Continue Alpha 1 fixes, improve end gcode by reseting each extruder removing and ambiguous state. Reduce G92 E0 calls in start gcode to minimum needed to prevent Issue #1
 - Pre-release 0.0.8-alpha1 (2023-03-06): Fix for Issue #1 filament unloading at start of print. Other start gcode fixes, improve supports by setting default support contact distance to layer height.
-- Pre-release 0.0.6-alpha2 (2023-01-28): adopts the 2022 Maker's Muse "common changed" slicer settings video https://youtu.be/mE521Q4H6aY
+- Pre-release 0.0.6-alpha2 (2023-01-28): Adopts the 2022 Maker's Muse "common changed" slicer settings video https://youtu.be/mE521Q4H6aY
   - List of modifications:
     - perimeters = 3 (was 2)
     - infill = 15% (was 20%)
